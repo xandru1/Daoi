@@ -32,6 +32,13 @@
 
 }
 
+@font-face {
+    font-family: 'alegreya';
+    src: url('Alegreya-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 @font-face {
     font-family: 'ambleregular';

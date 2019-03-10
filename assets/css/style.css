@@ -17,7 +17,7 @@ body {
     padding: 0;
     margin-left: 0;
     margin-right: 0;
-    font-family: 'ambleregular';
+    font-family: 'alegreya';
     font-weight: 300;
 }
 
@@ -63,7 +63,7 @@ p {
 
 }
 a{
-    font-family: 'robotoregular';
+    font-family: 'alegreya';
 }
 .clear {
     clear: both;
@@ -137,28 +137,28 @@ h1 {
     font-size: 3rem;
     line-height: 4rem;
     color:#fff;
-    font-family: 'big_johnregular';
+    font-family: 'alegreya';
 }
 h2 {
     font-size:1.875rem;
     line-height: 3rem;
     margin-bottom: 35px;
     text-transform: uppercase;
-    font-family: 'big_johnregular';
+    font-family: 'alegreya';
 }
 h3 {
     font-size:1.5rem;
     line-height: 2.5rem;
     margin-bottom:35px;
     text-transform: uppercase;
-    font-family: 'big_johnregular';
+    font-family: 'alegreya';
 }
 h4 {
     font-size: 1.5rem;
     line-height: 2.2rem;
     margin-bottom: 1.1rem;
     text-transform: uppercase;
-    font-family: 'big_johnregular';
+    font-family: 'alegreya';
 }
 h5 {
     font-size: 1.125rem;
@@ -358,7 +358,7 @@ Button
     background-color: transparent;
     transition: .5s; 
     border:0px;
-    font-family: 'amblebold';
+    font-family: 'alegreya';
 
 }
 .btn:hover {
@@ -534,7 +534,7 @@ h1 span {
 .home .main_home p.subtitle{
     color: #fff;
     padding-bottom: 25px;
-    font-family: 'ambleregular';
+    font-family: 'alegreya';
     font-size:1.375rem;
     max-width:65%;
     margin:0 auto;
@@ -683,7 +683,7 @@ h1 span {
     line-height: 2rem;
     width:75%;
     margin:0 auto;
-	font-family: 'amblelight';
+	font-family: 'alegreya';
 }
 .introduction{}
 
@@ -712,7 +712,7 @@ h1 span {
     padding: .2rem;
     display: inline-block;
     font-size:1.125rem;
-    font-family: 'slim_joeregular';
+    font-family: 'alegreya';
     background-color: transparent;
     transition: .5s;
     color: #222;
@@ -721,7 +721,7 @@ h1 span {
 
 .main_mix_menu ul li.active {
     color:#222;
-    font-family: 'big_johnregular';
+    font-family: 'alegreya';
 }
 
 
@@ -982,7 +982,7 @@ h1 span {
     margin-bottom: 15px;
     display: inline-block;
 	font-size: 1.375rem;
-	font-family: 'amblelight';
+	font-family: 'alegreya';
 }
 
 .contact .single_message_right_info .socail_bookmark a i{
@@ -1087,8 +1087,8 @@ h1 span {
   }
   .navbar-custom .navbar-brand {
     color: #ffffff;
-    font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
-  }
+    font-family: 'alegreya';
+}
   .navbar-custom .navbar-brand:hover,
   .navbar-custom .navbar-brand:focus,
   .navbar-custom .navbar-brand:active,
@@ -1101,7 +1101,7 @@ h1 span {
   .navbar-custom .navbar-toggle {
     background-color: #d87843;
     border-color: #d87843;
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'alegreya';
     text-transform: uppercase;
     color: white;
     font-size: 12px;
@@ -1111,7 +1111,7 @@ h1 span {
     background-color: #d87843;
   }
   .navbar-custom .nav li a {
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'alegreya';
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 1px;
