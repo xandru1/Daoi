@@ -1,10 +1,7 @@
 <!doctype html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!-->
+
 <html class="no-js" lang="">
-<!--<![endif]-->
+
 
 <head>
     <meta charset="utf-8">
@@ -59,7 +56,8 @@
                                         data-target="#bs-example-navbar-collapse-1">
                                         <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                                     </button>
-                                    <a class="navbar-brand page-scroll" href="#" style="padding-top: 0px;"><img src="1Daoi.png" width="80px" height="55px"></a>
+                                    <a class="navbar-brand page-scroll" href="#" style="padding-top: 0px;"><img
+                                            src="1Daoi.png" width="80px" height="55px"></a>
                                 </div>
 
                                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -72,17 +70,33 @@
                                             <a class="page-scroll" href="#portfolio">Portfolio</a>
                                         </li> -->
                                         <li>
-                                            <a class="page-scroll" href="#introduction">Introducere</a>
+                                            <a class="page-scroll" href="#introduction" id="first-item"
+                                                data-token="translatable.list-1">Introducere</a>
+                                        </li>
+
+
+                                        <li>
+                                            <a class="page-scroll" href="#team" id="second-item"
+                                                data-token="translatable.list-2">Echipa</a>
                                         </li>
                                         <li>
-                                            <a class="page-scroll" href="#team">Echipa</a>
+                                            <a class="page-scroll" href="#choose" id="third-item"
+                                                data-token="translatable.list-3">De ce Daoi</a>
                                         </li>
                                         <li>
-                                            <a class="page-scroll" href="#choose">De ce Daoi</a>
+                                            <a class="page-scroll" href="#contact" id="fourth-item"
+                                                data-token="translatable.list-4">Contact</a>
                                         </li>
-                                        <li>
-                                            <a class="page-scroll" href="#contact">Contact</a>
+                                        <li class="dropdown">
+                                            <a href="javascript:void(0)" class="dropbtn" id="fiveth-item"
+                                                data-token="translatable.list-5">Limba</a>
+                                            <div class="dropdown-content">
+                                                <a href="#" id="ro">Ro</a>
+                                                <a href="#" id="ru">Ru</a>
+                                                <a href="#" id="en">En</a>
+                                            </div>
                                         </li>
+
                                     </ul>
                                 </div>
                                 <!-- /.navbar-collapse -->
@@ -98,9 +112,7 @@
                                 <div class="main_home wow fadeInUp" data-wow-duration="700ms">
                                     <h1>Daoi</h1>
                                     <div class="whiseparator"></div>
-                                    <p class="subtitle">Super-eroul tău în promovarea online. Începe prin a ne cunoaște
-                                        - continuă prin a fi cunoscut.</p>
-
+                                    <p id="subtitlu" data-token="translatable.subtitlu" class="subtitle"></p>
                                 </div>
                             </div>
 
@@ -125,13 +137,10 @@
             <div class="row">
                 <div class="main_introduction sections">
                     <div class="head_title text-center wow fadeInUp" data-wow-duration="700ms">
-                        <h2>Introducere</h2>
+                        <h2 id="introtitle" data-token="translatable.introtitle"></h2>
                         <div class="separator"></div>
-                        <p>Compania Daoi a luat naștere în 2019, are la bază o echipă tânără și ambițioasă.
-                            Dezvoltarea companiei, cât și avansarea în carieră se numără printre prioritățile noastre.
-                            Ne asumăm responsabilitatea de a aduce pe piață doar produse de calitate ce vor satisface
-                            cerințele clientului și se vor raporta la standardele noastre..
-                        </p>
+
+                        <p id="intro" data-token="translatable.intro" class="intro"></p>
                     </div>
 
                 </div>
@@ -145,139 +154,22 @@
             <div class="container">
                 <div class="row">
                     <div class="main_creativity text-center">
-                        <a href="#contact" class="btn btn-larg page-scroll">Contactează-ne</a>
+                        <a href="#contact" class="btn btn-larg page-scroll" id="contactus"
+                            data-token="translatable.contactus"></a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!--
-    <section id="portfolio" class="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="main_mix_content text-center sections">
-                    <div class="head_title text-center wow fadeInUp" data-wow-duration="700ms">
-                        <h2>OUR PORTFOLIO</h2>
-                        <div class="separator"></div>
-                    </div>
-                    <div class="main_mix_menu">
-                        <ul>
-                            <li class="filter" data-filter="all">All</li>
-                            <li class="filter" data-filter=".cat1">branding</li>
-                            <li class="filter" data-filter=".cat2">web design</li>
-                            <li class="filter" data-filter=".cat3">mobile ui</li>
-                            <li class="filter" data-filter=".cat4">illustrations</li>
-                        </ul>
-                    </div>
-
-                    <div id="mixcontent" class="mixcontent">
-                        <div class="col-sm-4 mix cat1">
-                            <div class="single_mixi_portfolio">
-                                <img src="assets/images/pf1.jpg" alt="" />
-                                <div class="mixi_portfolio_overlay">
-                                    <div class="overflow_hover_text">
-                                        <h2>mobile ui</h2>
-                                        <p>Google Mail</p>
-                                        <div class="separator2"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-4 mix cat2 ">
-                            <div class="single_mixi_portfolio">
-                                <img src="assets/images/pf2.jpg" alt="" />
-                                <div class="mixi_portfolio_overlay">
-                                    <div class="overflow_hover_text">
-                                        <h2>mobile ui</h2>
-                                        <p>Google Mail</p>
-                                        <div class="separator2"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-4 mix cat1 cat4">
-                            <div class="single_mixi_portfolio">
-                                <img src="assets/images/pf3.jpg" alt="" />
-                                <div class="mixi_portfolio_overlay">
-                                    <div class="overflow_hover_text">
-                                        <h2>mobile ui</h2>
-                                        <p>Google Mail</p>
-                                        <div class="separator2"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-4 mix cat3 cat4 ">
-                            <div class="single_mixi_portfolio">
-                                <img src="assets/images/pf4.jpg" alt="" />
-                                <div class="mixi_portfolio_overlay">
-                                    <div class="overflow_hover_text">
-                                        <h2>mobile ui</h2>
-                                        <p>Google Mail</p>
-                                        <div class="separator2"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-4 mix cat4 ">
-                            <div class="single_mixi_portfolio">
-                                <img src="assets/images/pf5.jpg" alt="" />
-                                <div class="mixi_portfolio_overlay">
-                                    <div class="overflow_hover_text">
-                                        <h2>mobile ui</h2>
-                                        <p>Google Mail</p>
-                                        <div class="separator2"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-4 mix cat1 cat2 ">
-                            <div class="single_mixi_portfolio">
-                                <img src="assets/images/pf6.jpg" alt="" />
-                                <div class="mixi_portfolio_overlay">
-                                    <div class="overflow_hover_text">
-                                        <h2>mobile ui</h2>
-                                        <p>Google Mail</p>
-                                        <div class="separator2"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="portfolio_btn_area">
-                            <a href="" class="btn btn-md">Show me more</a>
-                        </div>
-                        <div class="gap"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> 
-    -->
-    <!-- End of portfolio two Section -->
-
-
-
-
-
-
-
-
     <section id="team" class="team">
         <div class="container">
             <div class="row">
                 <div class="main_team sections wow fadeInUp" data-wow-duration="700ms">
                     <div class="head_title text-center">
-                        <h2>Despre noi</h2>
+                        <h2 id="aboutus" data-token="translatable.aboutus"></h2>
                         <div class="separator"></div>
-                        <p>Echipa noastră se ocupă cu crearea website-urilor, aplicațiilor mobile și promovare în mediul
-                            online pe rețele
-                            sociale și nu doar. Lucrăm cu cele mai noi tehnologii din domeniile respective. Metoda de
-                            lucru CI/CD(integrare constantă/livrare constantă)
-                            ne ajută să îndeplinim toate cerințele clienților, chiar și cele care apar în timpul
-                            dezvoltării proiectelor.
-                        </p>
+                        <p id="desprenoi" data-token="translatable.desprenoi" class="desprenoi"></p>
                     </div>
                     <div class="col-sm-12">
                         <div class="row">
@@ -360,89 +252,23 @@
             <div class="container">
                 <div class="row">
                     <div class="main_creativity main_heretohelp text-center">
-                        <a href="#contact" class="btn btn-larg">Suntem aici să ajutăm.</a>
+                        <a href="#contact" class="btn btn-larg" id="hereHelp" data-token="translatable.hereHelp"></a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!--
-    <section id="clients" class="client">
-        <div class="container">
-            <div class="row">
-                <div class="main_client sections">
-                    <div class="head_title text-center wow fadeInUp" data-wow-duration="700ms">
-                        <h2>our clients</h2>
-                        <div class="separator"></div>
-                    </div>
-                    <div class="col-sm-2">
-                        <div class="single_client_logo">
-                            <a href=""><img src="assets/images/clogo1.png" alt="" /></a>
-                        </div>
-                    </div>
-                    <div class="col-sm-2">
-                        <div class="single_client_logo">
-                            <a href=""><img src="assets/images/clogo2.png" alt="" /></a>
-                        </div>
-                    </div>
-                    <div class="col-sm-2 ">
-                        <div class="single_client_logo">
-                            <a href=""><img src="assets/images/clogo3.png" alt="" /></a>
-                        </div>
-                    </div>
-                    <div class="col-sm-2">
-                        <div class="single_client_logo">
-                            <a href=""><img src="assets/images/clogo4.png" alt="" /></a>
-                        </div>
-                    </div>
-                    <div class="col-sm-2 ">
-                        <div class="single_client_logo">
-                            <a href=""><img src="assets/images/clogo5.png" alt="" /></a>
-                        </div>
-                    </div>
-                    <div class="col-sm-2">
-                        <div class="single_client_logo">
-                            <a href=""><img src="assets/images/clogo1.png" alt="" /></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    -->
 
-    <!-- Video section 
-        <section id="video" class="video wow fadeIn"  data-wow-duration="2s" data-wow-dealy="1.5s">
-            <div class="creativity_overlay">
-                <div class="container">
-                    <div class="row">
-                        <div class="main_video text-center">
-                            <div class="col-sm-12">
-                                <div class="icon">
-                                    <a href="https://www.youtube.com/embed/_l6CQRHIGyg" class="youtube-media"><img src="assets/images/playicon.png" alt="play-icon" /></a>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        -->
 
     <section id="choose" class="choose">
         <div class="container">
             <div class="row">
                 <div class="main_choose_area sections">
                     <div class="head_title text-center wow fadeInUp" data-wow-duration="700ms">
-                        <h2>De ce Daoi</h2>
+                        <h2 id="deceDaoi" data-token="translatable.deceDaoi"></h2>
                         <div class="separator"></div>
-                        <p>Noi te ajutăm cu selectarea
-                            design-ului, cu idei de promovare în mediul online pe platformele de socializare și nu doar.
-                            De asemenea echipa lucrează cu unelte de promovare web din ultima generație fapt ce aduce
-                            mai multe beneficii pentru website-urile create.
-                        </p>
+                        <p id="dece" data-token="translatable.dece" class="dece"></p>
                     </div>
                     <div class="main_choose_content margin-top-110">
                         <div class="single_choose_content text-center">
@@ -452,8 +278,8 @@
                                         <img src="assets/images/appMobile.png" alt="" width="100px" height="100px" />
                                     </div>
                                     <div class="single_choose_text">
-                                        <h5>Aplicații mobile</h5>
-                                        <p>Crearea aplicațiilor mobile atât pentru platformele Android cât și iOS.</p>
+                                        <h5 id="mobileapps" data-token="translatable.mobileapps"></h5>
+                                        <p id="mobileappssub" data-token="translatable.mobileappssub"></p>
                                     </div>
                                 </div>
                             </div>
@@ -463,8 +289,8 @@
                                         <img src="assets/images/promovare.png" alt="" width="100px" height="100px" />
                                     </div>
                                     <div class="single_choose_text">
-                                        <h5>Promovare online</h5>
-                                        <p>Setarea anunțurilor google adwords. Promovare pe rețelele de socializare.</p>
+                                        <h5 id="promovareonline" data-token="translatable.promovareonline"></h5>
+                                        <p id="promovareonlinesub" data-token="translatable.promovareonlinesub"></p>
                                     </div>
                                 </div>
                             </div>
@@ -474,8 +300,8 @@
                                         <img src="assets/images/webdesign1.png" alt="" width="100px" height="100px" />
                                     </div>
                                     <div class="single_choose_text">
-                                        <h5>Web design</h5>
-                                        <p>Design profesional/personalizat în funcție de necesități, design logo, carte de vizită.</p>
+                                        <h5 id="webdesign" data-token="translatable.webdesign"></h5>
+                                        <p id="webdesignsub" data-token="translatable.webdesignsub"></p>
                                     </div>
                                 </div>
                             </div>
@@ -483,35 +309,35 @@
                         <!--fa fa-chevron-right for searching and adding other items-->
                         <div class="single_choose_content text-center">
                             <div class="col-sm-4">
-                            		<div class="single_choose_item">
+                                <div class="single_choose_item">
                                     <div class="single_choose_img">
                                         <img src="assets/images/creare.png" alt="" width="100px" height="100px" />
                                     </div>
                                     <div class="single_choose_text">
-                                        <h5>Creare site</h5>
-                                        <p>Crearea aplicației web, plasarea în mediul online a afacerii dvs.</p>
-                                    </div>
-                                </div>		
-                            </div>
-                            <div class="col-sm-4">
-                            		<div class="single_choose_item">
-                                    <div class="single_choose_img">
-                                        <img src="assets/images/optimizare.png" alt="" width="100px" height="100px" />
-                                    </div>
-                                    <div class="single_choose_text">
-                                        <h5>Optimizare SEO</h5>
-                                        <p>Servicii de optimizare SEO pentru sporirea traficului pe website.</p>
+                                        <h5 id="crearesite" data-token="translatable.crearesite"></h5>
+                                        <p id="crearesitesub" data-token="translatable.crearesitesub"></p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-4">
-                            		<div class="single_choose_item">
+                                <div class="single_choose_item">
+                                    <div class="single_choose_img">
+                                        <img src="assets/images/optimizare.png" alt="" width="100px" height="100px" />
+                                    </div>
+                                    <div class="single_choose_text">
+                                        <h5 id="optseo" data-token="translatable.optseo"></h5>
+                                        <p id="optseosub" data-token="translatable.optseosub"></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="single_choose_item">
                                     <div class="single_choose_img">
                                         <img src="assets/images/support.png" alt="" width="100px" height="100px" />
                                     </div>
                                     <div class="single_choose_text">
-                                        <h5>Suport 24/24</h5>
-                                        <p>Oferim support pentru a oferi răspunsuri.</p>
+                                        <h5 id="support24" data-token="translatable.support24"></h5>
+                                        <p id="support24sub" data-token="translatable.support24sub"></p>
                                     </div>
                                 </div>
                             </div>
@@ -529,7 +355,8 @@
             <div class="container">
                 <div class="row">
                     <div class="main_quote sections text-center">
-                        <a href="" class="btn btn-larg page-scrolls">Obține un template.</a>
+                        <a href="" class="btn btn-larg page-scrolls" id="getTemplate"
+                            data-token="translatable.getTemplate"></a>
                     </div>
                 </div>
             </div>
@@ -543,15 +370,15 @@
             <div class="row">
                 <div class="contact_contant margin-top-120">
                     <div class="head_title text-center wow fadeInUp" data-wow-duration="700ms">
-                        <h2>Fii la curent</h2>
+                        <h2 id="beInTouch" data-token="translatable.beInTouch"></h2>
                         <div class="separator"></div>
-                        <p>Trimete-ne un mesaj, iar noi te vom ține la curent cu promoțiile și modificările Daoi.</p>
+                        <p id="beInTouchsub" data-token="translatable.beInTouchsub">Trimete-ne un mesaj, iar noi te vom ține la curent cu promoțiile și modificările Daoi.</p>
                     </div>
 
                     <div class="main_contact_text_area margin-top-110">
                         <div class="col-sm-5 no-padding wow fadeInUp" data-wow-duration="700ms">
                             <div class="single_message_right_info">
-                                <h4>Locația Noastră</h4>
+                                <h4 id="ourLocation" data-token="translatable.ourLocation"></h4>
                                 <ul>
 
                                     <li><a href="">str. Calea Ieșilor</a></li>
