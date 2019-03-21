@@ -304,11 +304,11 @@ function TransMod() {
     library["en"] = new Array();
     library["en"]["translatable.title"] = "Daoi-Source";
     library["en"]["translatable.subtitlu"] = "Your Super-Hero in online promotion. Start by knowing us, continue by being known.";
-    library["en"]["translatable.intro"] = "Daoi-Source Source was born in 2019 and it’s grounds are a young and ambitious team. Our company’s development, as well as advancing through the career, are counted as our basic priorities. We take responsibility to bring in only high-quality products on the market, fulfilling the requirements of our customers and keeping up with our standards.";
+    library["en"]["translatable.intro"] = "Daoi-Source Source was born in 2019 and its grounds are a young and ambitious team. Our company’s development, as well as advancing through the career, are counted as our basic priorities. We take responsibility to bring in only high-quality products on the market, fulfilling the requirements of our customers and keeping up with our standards.";
     library["en"]["translatable.desprenoi"] = "Our team is busy with creating websites, developing fancy mobile apps and online promoting on social media and much more. We use the newest technologies in the field. Constant Integration/Constant Delivery Method helps us to deliver any requests our customers ask for, even those appearing during the advanced stages of the project.";
     library["en"]["translatable.dece"] = "We help you with choosing the design, ideas for online promoting on internet platforms and not only. Our team uses the latest available tools, which brings more benefits for the new websites.";
     library["en"]["translatable.mesaj"] = "Send us a message, we’ll be more than happy to keep you up-to-date with Daoi-Source changes and offers.";
-    library["en"]["translatable.introtitle"] = "Intruduction";
+    library["en"]["translatable.introtitle"] = "Introduction";
     library["en"]["translatable.contactus"] = "Contact us";
     library["en"]["translatable.aboutus"] = "About us";
     library["en"]["translatable.hereHelp"] = "We are here to help";
