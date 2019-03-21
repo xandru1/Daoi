@@ -161,7 +161,7 @@ h2 {
 }
 
 h3 {
-    font-size: 1.5rem;
+    font-size: 1rem;
     line-height: 2.5rem;
     margin-bottom: 35px;
     text-transform: uppercase;
@@ -1040,45 +1040,6 @@ h1 span {
     background-size: cover;
 }
 
-/*contact section css*/
-
-.contact {
-    background: #fff;
-}
-
-.contact .main_contact_text_area {
-    background-color: #e4e4e4;
-    overflow: hidden;
-}
-
-.contact .single_message_right_info {
-    background: #f2f2f2;
-    padding: 120px 80px;
-}
-
-.contact .single_message_right_info ul li a {
-    font-style: italic;
-    color: #222222;
-    margin-bottom: 15px;
-    display: inline-block;
-    font-size: 1.375rem;
-    font-family: 'alegreya';
-}
-
-.contact .single_message_right_info .socail_bookmark a i {
-    color: #222222;
-    font-size: 1.375rem;
-    padding: 5px;
-    transition: all 0.6s;
-}
-
-.contact .single_message_right_info .socail_bookmark a:hover i {
-    color: #d87843;
-}
-
-.contact .single_contant_left {
-    padding: 120px 80px;
-}
 
 /*footer section*/
 
@@ -1239,10 +1200,16 @@ li a,
 li a:hover,
 .dropdown:hover .dropbtn {
     background-color: transparent;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+
 }
 
 li.dropdown {
     display: inline-block;
+    position: relative;
 }
 
 .dropdown-content {
@@ -1269,3 +1236,109 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+section#contact {
+    background-color: #222222;
+    background-image: url('../images/map-image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+  section#contact .section-heading {
+    color: #eeeeee;
+  }
+  section#contact .form-group {
+    margin-bottom: 25px;
+  }
+  section#contact .form-group input,
+  section#contact .form-group textarea {
+    padding: 20px;
+  }
+  section#contact .form-group input.form-control {
+    height: auto;
+  }
+  section#contact .form-group textarea.form-control {
+    height: 236px;
+  }
+  section#contact .form-control:focus {
+    border-color: #eeeeee;
+    box-shadow: none;
+  }
+  section#contact ::-webkit-input-placeholder {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #eeeeee;
+  }
+  section#contact :-moz-placeholder {
+    /* Firefox 18- */
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #eeeeee;
+  }
+  section#contact ::-moz-placeholder {
+    /* Firefox 19+ */
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #eeeeee;
+  }
+  section#contact :-ms-input-placeholder {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #eeeeee;
+  }
+  section#contact .text-danger {
+    color: #eeeeee;
+  }
+
+  .btn-xl {
+    color: white;
+    background-color: #d87843;
+    border-color: #d87843;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 8px 40px;
+  }
+  .btn-xl:hover,
+  .btn-xl:focus,
+  .btn-xl:active,
+  .btn-xl.active,
+  .open .dropdown-toggle.btn-xl {
+    color: white;
+    background-color: #e0580f;
+    border-color: #e0580f;
+  }
+  .btn-xl:active,
+  .btn-xl.active,
+  .open .dropdown-toggle.btn-xl {
+    background-image: none;
+  }
+  .btn-xl.disabled,
+  .btn-xl[disabled],
+  fieldset[disabled] .btn-xl,
+  .btn-xl.disabled:hover,
+  .btn-xl[disabled]:hover,
+  fieldset[disabled] .btn-xl:hover,
+  .btn-xl.disabled:focus,
+  .btn-xl[disabled]:focus,
+  fieldset[disabled] .btn-xl:focus,
+  .btn-xl.disabled:active,
+  .btn-xl[disabled]:active,
+  fieldset[disabled] .btn-xl:active,
+  .btn-xl.disabled.active,
+  .btn-xl[disabled].active,
+  fieldset[disabled] .btn-xl.active {
+    background-color: #e0580f;
+    border-color: #e0580f;
+  }
+  .btn-xl .badge {
+    color: #d87843;
+    background-color: white;
+  }

@@ -234,15 +234,15 @@ function TransMod() {
     library["ro"] = new Array();
     library["ro"]["translatable.title"] = "Translator";
     library["ro"]["translatable.subtitlu"] = "Super-eroul tău în promovarea online. Începe prin a ne cunoaște - continuă prin a fi cunoscut.";
-    library["ro"]["translatable.intro"] = "Compania Daoi a luat naștere în 2019, are la bază o echipă tânără și ambițioasă.Dezvoltarea companiei, cât și avansarea în carieră se numără printre prioritățile noastre. Ne asumăm responsabilitatea de a aduce pe piață doar produse de calitate ce vor satisface cerințele clientului și se vor raporta la standardele noastre..";
+    library["ro"]["translatable.intro"] = "Compania Daoi-Source a luat naștere în 2019, are la bază o echipă tânără și ambițioasă.Dezvoltarea companiei, cât și avansarea în carieră se numără printre prioritățile noastre. Ne asumăm responsabilitatea de a aduce pe piață doar produse de calitate ce vor satisface cerințele clientului și se vor raporta la standardele noastre..";
     library["ro"]["translatable.desprenoi"] = "Echipa noastră se ocupă cu crearea website-urilor, aplicațiilor mobile și promovare în mediul online pe rețele sociale și nu doar. Lucrăm cu cele mai noi tehnologii din domeniile respective. Metoda de lucru CI/CD(integrare constantă/livrare constantă) ne ajută să îndeplinim toate cerințele clienților, chiar și cele care apar în timpul dezvoltării proiectelor.";
     library["ro"]["translatable.dece"] = "Noi te ajutăm cu selectarea design-ului, cu idei de promovare în mediul online pe platformele de socializare și nu doar. De asemenea echipa lucrează cu unelte de promovare web din ultima generație fapt ce aduce mai multe beneficii pentru website-urile create.";
-    library["ro"]["translatable.mesaj"] = "Trimete-ne un mesaj, iar noi te vom ține la curent cu promoțiile și modificările Daoi.";
+    library["ro"]["translatable.mesaj"] = "Trimete-ne un mesaj, iar noi te vom ține la curent cu promoțiile și modificările Daoi-Source.";
     library["ro"]["translatable.introtitle"] = "Introducere";
     library["ro"]["translatable.contactus"] = "Contactează-ne";
     library["ro"]["translatable.aboutus"] = "Despre noi";
     library["ro"]["translatable.hereHelp"] = "Suntem aici să ajutăm.";
-    library["ro"]["translatable.deceDaoi"] = "De ce Daoi";
+    library["ro"]["translatable.deceDaoi"] = "De ce Daoi-Source";
     library["ro"]["translatable.mobileapps"] = "Aplicații mobile";
     library["ro"]["translatable.mobileappssub"] = "Crearea aplicațiilor mobile atât pentru platformele Android cât și iOS.";
     library["ro"]["translatable.promovareonline"] = "Promovare online";
@@ -257,12 +257,12 @@ function TransMod() {
     library["ro"]["translatable.support24sub"] = "Oferim support pentru a oferi răspunsuri.";
     library["ro"]["translatable.getTemplate"] = "Obține un template";
     library["ro"]["translatable.beInTouch"] = "Fii la curent";
-    library["ro"]["translatable.beInTouchsub"] = "Trimete-ne un mesaj, iar noi te vom ține la curent cu promoțiile și modificările Daoi.";
+    library["ro"]["translatable.beInTouchsub"] = "Trimete-ne un mesaj, iar noi te vom ține la curent cu promoțiile și modificările Daoi-Source.";
     library["ro"]["translatable.ourLocation"] = "Locația Noastră";
 
     library["ro"]["translatable.list-1"] = "Introducere";
     library["ro"]["translatable.list-2"] = "Echipa";
-    library["ro"]["translatable.list-3"] = "De ce Daoi";
+    library["ro"]["translatable.list-3"] = "De ce Daoi-Source";
     library["ro"]["translatable.list-4"] = "Contacte";
     library["ro"]["translatable.list-5"] = "Limba";
 
@@ -272,12 +272,12 @@ function TransMod() {
     library["ru"]["translatable.subtitlu"] = "Ваш супер герой в онлайн-продвижении. Это начинается с того, что мы знаем нас - это продолжает быть известным.";
     library["ru"]["translatable.desprenoi"] = "Наша команда занимается созданием сайтов, мобильных приложений и продвижением в онлайн-среде в социальных сетях и не только. Мы работаем с новейшими технологиями в соответствующих областях. Метод работы CI / CD (Constant Integration / Constant Delivery) помогает нам удовлетворить все требования клиентов, даже те, которые возникают в ходе разработки проекта.";
     library["ru"]["translatable.dece"] = "Мы поможем вам с выбором дизайна, с идеями для продвижения в Интернете в социальных сетях, а не только. Команда также работает с инструментами веб-продвижения последнего поколения, которые приносят больше пользы созданным веб-сайтам.";
-    library["ru"]["translatable.mesaj"] = "Отправьте нам сообщение, и мы будем держать вас в курсе акций и изменений Daoi.";
+    library["ru"]["translatable.mesaj"] = "Отправьте нам сообщение, и мы будем держать вас в курсе акций и изменений Daoi-Source.";
     library["ru"]["translatable.introtitle"] = "Старт";
     library["ru"]["translatable.contactus"] = "контакт";
     library["ru"]["translatable.aboutus"] = "про нас";
     library["ru"]["translatable.hereHelp"] = "мы здесь";
-    library["ru"]["translatable.deceDaoi"] = "Пачиму Daoi";
+    library["ru"]["translatable.deceDaoi"] = "Пачиму Daoi-Source";
     library["ru"]["translatable.mobileapps"] = "rusa";
     library["ru"]["translatable.mobileappssub"] = "rusa";
     library["ru"]["translatable.promovareonline"] = "rusa";
@@ -302,17 +302,17 @@ function TransMod() {
     library["ru"]["translatable.list-5"] = "язык";
 
     library["en"] = new Array();
-    library["en"]["translatable.title"] = "Daoi";
+    library["en"]["translatable.title"] = "Daoi-Source";
     library["en"]["translatable.subtitlu"] = "Your Super-Hero in online promotion. Start by knowing us, continue by being known.";
-    library["en"]["translatable.intro"] = "Daoi Source was born in 2019 and it’s grounds are a young and ambitious team. Our company’s development, as well as advancing through the career, are counted as our basic priorities. We take responsibility to bring in only high-quality products on the market, fulfilling the requirements of our customers and keeping up with our standards.";
+    library["en"]["translatable.intro"] = "Daoi-Source Source was born in 2019 and it’s grounds are a young and ambitious team. Our company’s development, as well as advancing through the career, are counted as our basic priorities. We take responsibility to bring in only high-quality products on the market, fulfilling the requirements of our customers and keeping up with our standards.";
     library["en"]["translatable.desprenoi"] = "Our team is busy with creating websites, developing fancy mobile apps and online promoting on social media and much more. We use the newest technologies in the field. Constant Integration/Constant Delivery Method helps us to deliver any requests our customers ask for, even those appearing during the advanced stages of the project.";
     library["en"]["translatable.dece"] = "We help you with choosing the design, ideas for online promoting on internet platforms and not only. Our team uses the latest available tools, which brings more benefits for the new websites.";
-    library["en"]["translatable.mesaj"] = "Send us a message, we’ll be more than happy to keep you up-to-date with Daoi changes and offers.";
+    library["en"]["translatable.mesaj"] = "Send us a message, we’ll be more than happy to keep you up-to-date with Daoi-Source changes and offers.";
     library["en"]["translatable.introtitle"] = "Intruduction";
     library["en"]["translatable.contactus"] = "Contact us";
     library["en"]["translatable.aboutus"] = "About us";
     library["en"]["translatable.hereHelp"] = "We are here to help";
-    library["en"]["translatable.deceDaoi"] = "Why Daoi";
+    library["en"]["translatable.deceDaoi"] = "Why Daoi-Source";
     library["en"]["translatable.mobileapps"] = "Mobile apps";
     library["en"]["translatable.mobileappssub"] = "Building Android and iOS platform-compatible mobile apps.";
     library["en"]["translatable.promovareonline"] = "Online Promotion";
@@ -327,12 +327,12 @@ function TransMod() {
     library["en"]["translatable.support24sub"] = "You have questions, we have the right answers.";
     library["en"]["translatable.getTemplate"] = "Get a template";
     library["en"]["translatable.beInTouch"] = "Be in touch";
-    library["en"]["translatable.beInTouchsub"] = "Send us a message, we’ll be more than happy to keep you up-to-date with Daoi changes and offers.";
+    library["en"]["translatable.beInTouchsub"] = "Send us a message, we’ll be more than happy to keep you up-to-date with Daoi-Source changes and offers.";
     library["en"]["translatable.ourLocation"] = "Our Location";
 
     library["en"]["translatable.list-1"] = "Introduction";
     library["en"]["translatable.list-2"] = "Team";
-    library["en"]["translatable.list-3"] = "Why Daoi";
+    library["en"]["translatable.list-3"] = "Why Daoi-Source";
     library["en"]["translatable.list-4"] = "Contacts"
     library["en"]["translatable.list-5"] = "Language"
 
@@ -377,7 +377,7 @@ function TransMod() {
         $("#fiveth-item").html(langModule.translate(lang, $("#fiveth-item").attr("data-token")));
     }
 
-    InitStaticText("ro");
+    InitStaticText("en");
     $("#en").click(function () {
         InitStaticText("en");
     });
